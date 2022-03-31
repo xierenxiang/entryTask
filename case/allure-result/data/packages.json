@@ -1,0 +1,129 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_01[data0]",
+      "uid" : "7a4b92b00ea27478",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567841,
+        "stop" : 1648697567848,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a不传，b传值', 'case': {'b': 'bString'}, 'error_message': 'success', 'reference': 'b:bString'}" ]
+    }, {
+      "name" : "test_01[data1]",
+      "uid" : "860d681f581b2110",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567850,
+        "stop" : 1648697567856,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传入1000，b传值', 'case': {'a': 1000, 'b': 'bString'}, 'error_message': 'success', 'reference': 'a:1000,b:bString'}" ]
+    }, {
+      "name" : "test_01[data2]",
+      "uid" : "282d7b50f4f9e245",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567857,
+        "stop" : 1648697567863,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传0，b传值', 'case': {'a': 0, 'b': 'bString'}, 'error_message': 'success', 'reference': 'a:0,b:bString'}" ]
+    }, {
+      "name" : "test_02[data0]",
+      "uid" : "c502d7c59871d28b",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567864,
+        "stop" : 1648697567866,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a,b都不传', 'case': None, 'error_message': 'system error', 'error_code': 11}" ]
+    }, {
+      "name" : "test_02[data1]",
+      "uid" : "7cfd4b2b78732e3f",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567867,
+        "stop" : 1648697567870,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a不传，b传空', 'case': {'b': None}, 'error_message': 'system error', 'error_code': 11}" ]
+    }, {
+      "name" : "test_02[data2]",
+      "uid" : "502fa1adb06fedb6",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567871,
+        "stop" : 1648697567873,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传字符串，b传值', 'case': {'a': 'aString', 'b': 'bString'}, 'error_message': 'param:a must be positive int', 'error_code': 21}" ]
+    }, {
+      "name" : "test_02[data3]",
+      "uid" : "b11d892490f74319",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567875,
+        "stop" : 1648697567877,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传浮点数，b传值', 'case': {'a': 1000.1234, 'b': 'bString'}, 'error_message': 'param:a must be positive int', 'error_code': 21}" ]
+    }, {
+      "name" : "test_02[data4]",
+      "uid" : "7aea3ff2ea111cfa",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567879,
+        "stop" : 1648697567881,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传负数，b传值', 'case': {'a': -1, 'b': 'bString'}, 'error_message': 'param:a must be positive int', 'error_code': 21}" ]
+    }, {
+      "name" : "test_02[data5]",
+      "uid" : "7efba4b33c367c18",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567883,
+        "stop" : 1648697567888,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': 'a传入时带有空格，b传值', 'case': {'a': 1000, 'b': 'bString'}, 'error_message': 'success', 'error_code': 0}" ]
+    }, {
+      "name" : "test_02[data6]",
+      "uid" : "fc4d09b191f01bb1",
+      "parentUid" : "3b2e467b921b0ea8d4803b9c79d92d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648697567889,
+        "stop" : 1648697567891,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "{'desc': '传入不明参数', 'case': {'c': 1000, 'd': 'bString'}, 'error_message': 'system error', 'error_code': 11}" ]
+    } ],
+    "uid" : "3b2e467b921b0ea8d4803b9c79d92d0c"
+  } ],
+  "name" : "packages"
+}

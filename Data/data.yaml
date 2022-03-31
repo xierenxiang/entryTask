@@ -1,0 +1,22 @@
+-
+  desc: a不传，b传值
+  case:
+    b: bString
+  error_message: success
+  reference: b:bString
+-
+  desc: a传入1000，b传值
+  case:
+    a: 1000
+    b: bString
+  error_message: success
+  reference: a:1000,b:bString
+
+-
+  desc: a传0，b传值
+  case:
+    a: 0
+    b: bString
+  error_message: success
+  reference: a:0,b:bString
+

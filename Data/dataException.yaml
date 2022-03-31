@@ -1,0 +1,52 @@
+-
+  desc: a,b都不传
+  case:
+  error_message: system error
+  error_code: 11
+-
+  desc: a不传，b传空
+  case:
+    b:
+  error_message: system error
+  error_code: 11
+
+-
+  desc: a传字符串，b传值
+  case:
+    a: aString
+    b: bString
+  error_message: param:a must be positive int
+  error_code: 21
+
+-
+  desc: a传浮点数，b传值
+  case:
+    a: 1000.1234
+    b: bString
+  error_message: param:a must be positive int
+  error_code: 21
+
+-
+  desc: a传负数，b传值
+  case:
+    a: -1
+    b: bString
+  error_message: param:a must be positive int
+  error_code: 21
+
+-
+  desc: a传入时带有空格，b传值
+  case:
+    a:   1000
+    b: bString
+  error_message: success
+  error_code: 0
+-
+  desc: 传入不明参数
+  case:
+    c:   1000
+    d: bString
+  error_message: system error
+  error_code: 11
+
+

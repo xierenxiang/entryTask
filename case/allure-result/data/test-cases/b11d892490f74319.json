@@ -1,0 +1,77 @@
+{
+  "uid" : "b11d892490f74319",
+  "name" : "test_02[data3]",
+  "fullName" : "test_case#test_02",
+  "historyId" : "c5310b9e98b204ea7a250092d8b63b08",
+  "time" : {
+    "start" : 1648697567875,
+    "stop" : 1648697567877,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af0c16c2812be4c3",
+      "name" : "stdout",
+      "source" : "af0c16c2812be4c3.txt",
+      "type" : "text/plain",
+      "size" : 88
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "InterFace"
+  }, {
+    "name" : "epic",
+    "value" : "Entrytask"
+  }, {
+    "name" : "story",
+    "value" : "Basic"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "XW52CT4GGN"
+  }, {
+    "name" : "thread",
+    "value" : "8427-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'desc': 'a传浮点数，b传值', 'case': {'a': 1000.1234, 'b': 'bString'}, 'error_message': 'param:a must be positive int', 'error_code': 21}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b11d892490f74319.json",
+  "parameterValues" : [ "{'desc': 'a传浮点数，b传值', 'case': {'a': 1000.1234, 'b': 'bString'}, 'error_message': 'param:a must be positive int', 'error_code': 21}" ]
+}
