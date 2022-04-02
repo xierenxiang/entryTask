@@ -7,9 +7,8 @@ import pytest
 import requests
 from Load_data import yaml_load
 
-
-@allure.feature('InterFace')
 @allure.epic('Entrytask')
+@allure.feature('InterFace')
 @allure.story('Basic')
 @pytest.mark.parametrize('data', yaml_load.load('../Data/data.yaml'))
 def test_01(data):
@@ -27,8 +26,8 @@ def test_01(data):
     assert reference == resjson['reference']
 
 
-@allure.feature('InterFace')
 @allure.epic('Entrytask')
+@allure.feature('InterFace')
 @allure.story('Basic')
 @pytest.mark.parametrize('data', yaml_load.load('../Data/dataException.yaml'))
 def test_02(data):
@@ -51,15 +50,13 @@ if __name__ == '__main__':
     os.system('pytest - -alluredir. / result')
     os.system('allure generate. / result / -o. / report / --clean')
 
-    # 命令行生成测试报告
+    # 命令行生成测试报告，需要三步
 
     # 1、生成测试报告数据
-    # pytest - -alluredir =./ allure - xml
-    #
+    # pytest test_case.py -s -q --alluredir=./result/
+
     # 2、测试报告在线预览
-    # allure
-    # serve. / allure - xml
-    #
+    # allure serve ./result/
     # 3、测试报告本地静态数据生成
-    # allure
-    # generate. / allure - xml - o. / allure - result --clean
+
+    # allure generate ./allure - xml - o ./ allure - result --clean
