@@ -6,7 +6,7 @@
     PARAMS_ERRCODE = 21
     SUCCESS_CODE = 0
 3.case目录为测试case执行脚本
-4.Data为测试用例报错的文件
+4.Data为测试用例
 5.Load_Data读取data中的测试用例
 6.测试报告保存在case目录下allure-result下的index.html中
 7.性能测试脚本Locust_Demo
