@@ -18,6 +18,3 @@ Load_Data读取data中的测试用例
 https://www.processon.com/diagraming/623c549a1e085306f8d2bce6
 # 性能测试报告
 https://docs.google.com/document/d/1VLyUGPYzwzdQ7B6laT6Aq-XI-8VyO8rIf0yukB7AU9M/edit#
-# 相关依赖
-pip install transformers
-pip install paddlenlp
